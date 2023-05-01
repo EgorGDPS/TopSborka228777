@@ -1,0 +1,716 @@
+[19:25:39] [main/INFO] [STDOUT/]: Update in check...
+[19:25:39] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[19:25:39] [main/INFO] [STDOUT/]: No update found, latest version: (1.16.5-1110) current version: (1.16.5-1110)
+[19:25:39] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1110, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
+[19:25:39] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_312 by Temurin
+[19:25:40] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[19:25:40] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/data/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[19:25:43] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [someoneelse.betternetherreforged.mixin.MixinConnector]
+[19:25:43] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[19:25:43] [main/INFO] [someoneelse.betternetherreforged.BetterNether/]: Better Nether: Mixin Connected!
+[19:25:43] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[19:25:43] [main/WARN] [mixin/]: Reference map 'cataclysm.refmap.json' for cataclysm.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:25:46] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[19:25:46] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[19:25:46] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[19:26:04] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:04] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:04] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:04] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:05] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `edelwood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:05] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `edelwood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:05] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `cherrywood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:05] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `cherrywood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:05] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `mysterywood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:05] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `mysterywood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:07] [modloading-worker-12/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[19:26:07] [modloading-worker-12/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[19:26:07] [modloading-worker-12/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[19:26:08] [modloading-worker-8/INFO] [io.github.noeppi_noeppi.libx.LibX/]: Config 'feywild:misc' does not exist. Creating default.
+[19:26:08] [modloading-worker-8/INFO] [io.github.noeppi_noeppi.libx.LibX/]: Config 'feywild:world_gen' does not exist. Creating default.
+[19:26:08] [modloading-worker-8/INFO] [io.github.noeppi_noeppi.libx.LibX/]: Config 'feywild:mob_spawns' does not exist. Creating default.
+[19:26:08] [modloading-worker-8/INFO] [io.github.noeppi_noeppi.libx.LibX/]: Config 'feywild:compat' does not exist. Creating default.
+[19:26:10] [modloading-worker-6/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `nether_wastes`, expected `betternether`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:10] [modloading-worker-6/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crimson_forest`, expected `betternether`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:11] [modloading-worker-6/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `warped_forest`, expected `betternether`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:11] [modloading-worker-6/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `basalt_deltas`, expected `betternether`. This could be a intended override, but in most cases indicates a broken mod.
+[19:26:16] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 191 ms
+[19:26:16] [main/INFO] [occultism/]: Registered BlockItems
+[19:26:16] [main/INFO] [occultism/]: Registered SpawnEggItems
+[19:26:16] [main/INFO] [occultism/]: Registered compostable Items
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betternether:chair, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betternether:naga_projectile, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betternether:firefly, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betternether:naga, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betternether:flying_pig, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betternether:jungle_skeleton, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betternether:hydrogen_jellyfish, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betternether:skull, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:grizzly_bear, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:roadrunner, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent_part, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gazelle, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crocodile, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:fly, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hummingbird, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:orca, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:sunbird, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gorilla, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crimson_mosquito, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:rattlesnake, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:endergrade, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hammerhead_shark, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:lobster, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:komodo_dragon, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:capuchin_monkey, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_head, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_body, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_tail, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_toad, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:moose, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mimicube, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:raccoon, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:blobfish, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:seal, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cockroach, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:shoebill, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:elephant, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:soul_vulture, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:snow_leopard, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:spectre, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crow, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:alligator_snapping_turtle, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mungus, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mantis_shrimp, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:guster, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_mosco, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:straddler, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:stradpole, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:emu, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:platypus, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:dropbear, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tasmanian_devil, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:kangaroo, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cachalot_whale, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:leafcutter_ant, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:enderiophage, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bald_eagle, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tiger, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tarantula_hawk, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:void_worm, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:void_worm_part, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:frilled_shark, use EntityAttributeCreationEvent instead.
+[19:26:22] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mimic_octopus, use EntityAttributeCreationEvent instead.
+[19:26:28] [main/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.registries.Registry:registerSounds:126]: Registered SoundEvents
+[19:26:30] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[19:26:30] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[19:26:30] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[19:26:30] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[19:26:30] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[19:26:41] [modloading-worker-14/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.5+57d5ac9) is loaded
+[19:26:41] [modloading-worker-11/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.quests.quests.QuestBrewPotion:initialize:33]: Init Brew Potion Quest
+[19:26:41] [modloading-worker-11/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.quests.quests.QuestBuildGolem:initialize:42]: Init Build Golem Quest
+[19:26:41] [modloading-worker-11/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.quests.quests.QuestEnchantItem:initialize:45]: Init Enchant Item Quest
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Chain Linkage
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Chains Connect Blocks
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Chute
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Color Slime
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Ender Watcher
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Feeding Trough
+[19:26:41] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for forbidden_arcanus:pixie, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Gravisand
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Iron Rod
+[19:26:41] [modloading-worker-2/INFO] [occultism/]: Common setup complete.
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Metal Buttons
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Obsidian Plate
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Redstone Circuit
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Weather Sensor
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Bamboo Mat
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Burn Vines
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Cobblestone Bricks
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Compressed Blocks
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Duskbound Blocks
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Framed Glass
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Gold Bars
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Grate
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Hedges
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Iron Plates
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Item Frames
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Leaf Carpet
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Lit Lamp
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Midori
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module More Brick Types
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module More Potted Plants
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module More Stone Variants
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Paper Decor
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Quilted Wool
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Rope
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Shallow Dirt
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Shingles
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Soul Sandstone
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Stained Planks
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Stools
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Sturdy Stone
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Tallow And Candles
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Thatch
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Tie Leads To Fences
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Turf
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Variant Bookshelves
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Variant Chests
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Variant Ladders
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Vertical Planks
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Vertical Slabs
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Wooden Posts
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Chests In Boats
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Easy Transfering
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Hotbar Changer
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Inventory Sorting
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Item Sharing
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Right Click Armor
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Shulker Box Right Click
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Ancient Tomes
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Bottled Cloud
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Camera
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Color Runes
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Pathfinder Maps
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Pickarang
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Seed Pouch
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Slime In A Bucket
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Trowel
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Skull Pikes
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Armed Armor Stands
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Dirt To Path
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Double Door Opening
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Dragon Scales
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Emotes
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Enhanced Ladders
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Glass Shard
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Hoe Harvesting
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Improved Sleeping
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Infinity Bucket
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Lock Rotation
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Pat The Dogs
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Poison Potato Usage
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Reacharound Placing
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Replace Scaffolding
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Sign Editing
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Simple Harvest
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Springy Slime
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Utility Recipes
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Big Dungeon
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Big Stone Clusters
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Biotite
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Blossom Trees
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Cave Roots
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Chorus Vegetation
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Crevices
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Fairy Rings
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Mega Caves
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Monster Box
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module New Stone Types
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Realistic World Gen
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Speleothems
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Spiral Spires
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Underground Clay
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Lush Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Slime Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Crabs
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Forgotten
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Foxhound
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Frogs
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Stonelings
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Toretoise
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Wraith
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Auto Walk Keybind
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Back Button Keybind
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Chest Searching
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Greener Grass
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Improved Mount Hud
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Improved Tooltips
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Usage Ticker
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Variant Animal Textures
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Backpack
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Crate
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Magnets
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Matrix Enchanting
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Pipes
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Totem Of Holding
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Adjustable Chat
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Custom Underground Biome
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Game Nerfs
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Narrator Readout
+[19:26:41] [modloading-worker-10/INFO] [quark/]: Loading Module Overlay Shader
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[19:26:41] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[19:26:42] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
+[19:26:42] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
+[19:26:42] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid.travelersbackpack.potion_fluid with the ID 2
+[19:26:42] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for Air with the ID 3
+[19:26:42] [modloading-worker-2/INFO] [occultism/]: Dedicated server setup complete.
+[19:26:42] [modloading-worker-8/INFO] [com.paleimitations.schoolsofmagic.SchoolsOfMagicMod/]: Got IMC []
+[19:26:42] [modloading-worker-0/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[19:26:48] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:26:48] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/bukkit, loading it automatically
+[19:26:49] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, QuarkOddities-1.16.3.jar, mowziesmobs-1.5.27.jar, jei-1.16.5-7.7.1.153.jar, betternether_reforged-1.2.jar, SchoolsOfMagic1.16.5-2.1.04.jar, L_Enders+Cataclysm-0.48+Changed+Theme+-1.16.5.jar, curios-forge-1.16.5-4.0.5.3.jar, Patchouli-1.16.4-53.3.jar, citadel-1.8.1-1.16.5.jar, alexsmobs-1.11.1.jar, AutoRegLib-1.6-49.jar, TravelersBackpack-1.16.5-5.4.21.jar, LibX-1.16.3-1.0.76.jar, worldedit-mod-7.2.5-dist.jar, occultism-1.16.5-1.23.3.jar, iceandfire-2.1.12-1.16.5.jar, Hwyla-forge-1.10.11-B78_1.16.2.jar, mohist-1.16.5-1110-universal.jar, Quark-r2.4-307.jar, valhelsia_core-16.0.13a.jar, forbidden_arcanus-16.2.3.jar, geckolib-forge-1.16.5-3.0.106.jar, Feywild-1.16.5-2.0.5.jar, betterendforge-1.16.5-1.6.3.jar, ironchest-1.16.5-11.2.21.jar, bukkit
+[19:26:53] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[19:26:53] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:beetroot_soup_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:wither_rose_to_black_dye_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:yellow_clay_powder_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:light_blue_clay_powder_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:black_clay_powder_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:rose_bush_to_red_dye_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:bone_meal_to_white_dye_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cyan_clay_powder_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_dandelion_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:purple_clay_powder_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:sugar_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blue_orchid_to_light_blue_dye_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:light_gray_clay_powder_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blue_clay_powder_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_mushroom_soup_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lilac_to_magenta_dye_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_blue_orchid_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:dandelion_to_yellow_dye_mortar
+[19:26:54] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:bone_meal_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:ink_sac_to_black_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:honey_bottle_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:orange_tulip_to_orange_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cocoa_beans_to_brown_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lily_of_the_valley_to_white_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:oxeye_daisy_to_light_gray_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:magenta_clay_powder_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:white_tulip_to_light_gray_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:peony_to_pink_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:melon_seeds_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:azure_bluet_to_light_gray_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:gray_clay_powder_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_clay_powder_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:glistering_melon_slice_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:white_clay_powder_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:orange_clay_powder_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:sunflower_to_yellow_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:poppy_to_red_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cornflower_to_blue_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_tulip_to_red_dye_mortar
+[19:26:55] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:glowstone_dust_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pumpkin_seeds_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:stal_to_11_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:poppy_seeds_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:green_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pink_tulip_to_pink_dye_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:allium_to_magenta_dye_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pink_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blaze_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lime_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:brown_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_allium_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:terracotta_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_lily_of_the_valley_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_cornflower_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:brown_mushroom_soup_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:beetroot_soup_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:wither_rose_to_black_dye_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:yellow_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:light_blue_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:black_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:rose_bush_to_red_dye_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:bone_meal_to_white_dye_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cyan_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_dandelion_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:purple_clay_powder_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:sugar_mortar
+[19:26:56] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blue_orchid_to_light_blue_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:light_gray_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blue_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_mushroom_soup_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lilac_to_magenta_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_blue_orchid_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:dandelion_to_yellow_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:bone_meal_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:ink_sac_to_black_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:honey_bottle_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:orange_tulip_to_orange_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cocoa_beans_to_brown_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lily_of_the_valley_to_white_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:oxeye_daisy_to_light_gray_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:magenta_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:white_tulip_to_light_gray_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:peony_to_pink_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:melon_seeds_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:azure_bluet_to_light_gray_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:gray_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:glistering_melon_slice_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:white_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:orange_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:sunflower_to_yellow_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:poppy_to_red_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cornflower_to_blue_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_tulip_to_red_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:glowstone_dust_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pumpkin_seeds_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:stal_to_11_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:poppy_seeds_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:green_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pink_tulip_to_pink_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:allium_to_magenta_dye_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pink_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blaze_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lime_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:brown_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_allium_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:terracotta_clay_powder_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_lily_of_the_valley_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_cornflower_mortar
+[19:26:57] [Worker-Main-13/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:brown_mushroom_soup_mortar
+[19:26:57] [Worker-Main-13/WARN] [net.minecraft.loot.LootTableManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[19:26:59] [Worker-Main-13/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {alexsmobs:gameplay/seal_reward}.pools[0].entries[1].functions[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_nether_bricks_stairs_from_roof_tile_nether_bricks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_planks_from_willow_bark: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_willow_from_willow_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_stalagnate_slab_from_roof_tile_stalagnate: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_planks_from_wart_bark: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_door_from_willow_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_rubeus_from_rubeus_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_reed_from_reeds_block: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_slab_from_rubeus_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_reeds_from_reeds_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_ladder_from_rubeus_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_nether_sakura_from_nether_sakura_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_planks_from_rubeus_bark: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_door_from_wart_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_reeds_from_reeds_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_ladder_from_mushroom_fir_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_mushroom_from_mushroom_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_planks_from_mushroom_fir_stem: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_planks_from_mushroom_fir_wood: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_stairs_from_nether_sakura_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_gate_from_willow_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_rubeus_from_rubeus_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_stairs_from_wart_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_wood_from_mushroom_fir_log: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_stairs_from_stalagnate_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_smooth_slab_from_soul_sandstone_smooth: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_log_from_mushroom_fir_stem: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_anchor_tree_from_anchor_tree_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_wart_from_wart_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_fence_from_wart_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_anchor_tree_from_anchor_tree_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_willow_from_willow_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_door_from_anchor_tree_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_stalagnate_from_stalagnate_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_planks_from_nether_sakura_bark: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_fence_from_nether_sakura_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_from_striped_log_stalagnate: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_reeds_from_reeds_block: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_stalagnate_stairs_from_roof_tile_stalagnate: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_gate_from_wart_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_door_from_mushroom_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_rubeus_from_rubeus_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_stairs_from_rubeus_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_mushroom_from_mushroom_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_fence_from_mushroom_fir_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/blue_obsidian_tile_stairs_from_blue_obsidian_tile_small: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_smooth_from_soul_sandstone_cut: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_button_from_rubeus_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_button_from_wart_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_anchor_tree_from_anchor_tree_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_gate_from_mushroom_fir_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_willow_from_willow_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_ladder_from_willow_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_plate_from_stalagnate_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/cincinnasite_fire_bowl_soul_from_cincinnasite_forged: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_cincinnasite_slab_from_roof_tile_cincinnasite: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/cincinnasite_fire_bowl_from_cincinnasite_forged: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_reeds_from_reeds_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_trapdoor_from_wart_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_planks_from_anchor_tree_log: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/blue_obsidian_tile_slab_from_blue_obsidian_tile_small: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_plate_from_nether_sakura_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_willow_from_willow_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_rubeus_from_rubeus_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_fence_from_anchor_tree_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/obsidian_bricks_stairs_from_obsidian_bricks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_cincinnasite_from_cincinnasite_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/obsidian_bricks_slab_from_obsidian_bricks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_reeds_slab_from_roof_tile_reeds: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_anchor_tree_from_anchor_tree_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_door_from_nether_sakura_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bone_stairs_from_bone_block: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_gate_from_rubeus_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_mushroom_fir_from_mushroom_fir_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bone_plate_from_bone_block: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_mushroom_from_mushroom_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_ladder_from_reeds_block: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_plate_from_anchor_tree_planks: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_mushroom_fir_from_mushroom_fir_slab: {1}
+[19:26:59] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_plate_from_willow_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_slab_from_anchor_tree_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_planks_from_striped_log_nether_sakura: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_door_from_rubeus_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_bark_from_willow_log: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_door_from_reeds_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_planks_from_mushroom_fir_log: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_brick_tile_stairs_from_nether_brick_tile_small: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_ladder_from_anchor_tree_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_cincinnasite_stairs_from_roof_tile_cincinnasite: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_anchor_tree_from_anchor_tree_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_brick_tile_slab_from_nether_brick_tile_small: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_fence_from_rubeus_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_bark_from_stalagnate_log: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_gate_from_stalagnate_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_willow_from_willow_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_chiseled_from_soul_sandstone_smooth: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_stairs_from_soul_sandstone: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bricks_fire_bowl_from_nether_brick_tile_large: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_button_from_mushroom_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_wart_slab_from_roof_tile_wart: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/cincinnasite_slab_from_cincinnasite_forged: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_bark_from_rubeus_log: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_slab_from_reeds_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_planks_from_striped_bark_rubeus: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_planks_from_striped_bark_anchor_tree: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_trapdoor_from_willow_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_mushroom_from_mushroom_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_fence_from_reeds_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_nether_sakura_from_nether_sakura_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_mushroom_fir_from_mushroom_fir_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_planks_from_striped_log_rubeus: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_willow_from_willow_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_button_from_mushroom_fir_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_mushroom_fir_from_mushroom_fir_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_door_from_stalagnate_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_wart_from_wart_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_planks_from_striped_log_anchor_tree: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bone_wall_from_bone_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_plate_from_mushroom_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_gate_from_anchor_tree_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_trapdoor_from_nether_sakura_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_stairs_from_willow_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_from_striped_bark_stalagnate: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_slab_from_soul_sandstone: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_wart_from_wart_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_slab_from_wart_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_ruby_slab_from_nether_ruby_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_ladder_from_nether_sakura_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_rubeus_from_rubeus_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_ruby_stairs_from_nether_ruby_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_from_stalagnate_log: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_log_from_stalagnate_stem: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/obsidian_tile_slab_from_obsidian_tile_small: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/basalt_bricks_slab_from_basalt_bricks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_mushroom_fir_from_mushroom_fir_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_rubeus_from_rubeus_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_trapdoor_from_stalagnate_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_anchor_tree_from_anchor_tree_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_stalagnate_from_stalagnate_planks_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_brick_wall_from_nether_brick_tile_large: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_trapdoor_from_mushroom_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/cincinnasite_wall_from_cincinnasite_forged: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_stalagnate_from_stalagnate_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bricks_fire_bowl_soul_from_nether_brick_tile_large: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_planks_from_anchor_tree_bark: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_stairs_from_mushroom_fir_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_stairs_from_anchor_tree_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_plate_from_mushroom_fir_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_planks_from_rubeus_log: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_cut_stairs_from_soul_sandstone_cut: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_nether_bricks_slab_from_roof_tile_nether_bricks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_stalagnate_from_stalagnate_planks_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_planks_from_striped_wood_mushroom_fir: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_trapdoor_from_reeds_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_planks_from_striped_bark_willow: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_nether_sakura_from_nether_sakura_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_slab_from_mushroom_fir_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_planks_from_striped_bark_nether_sakura: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_wart_from_wart_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_stalagnate_from_stalagnate_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_mushroom_from_mushroom_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bone_slab_from_bone_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_anchor_tree_from_anchor_tree_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_ladder_from_mushroom_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_mushroom_from_mushroom_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bone_button_from_bone_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_willow_from_willow_slab: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_gate_from_mushroom_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_stairs_from_reeds_block: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_planks_from_striped_log_mushroom_fir: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_stalagnate_from_stalagnate_planks: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/cincinnasite_plate_from_cincinnasite_forged: {1}
+[19:27:00] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_trapdoor_from_anchor_tree_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_reed_from_reeds_block: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_slab_from_mushroom_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_trapdoor_from_mushroom_fir_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_wart_from_wart_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_slab_from_nether_sakura_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_willow_stairs_from_roof_tile_willow: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_cut_slab_from_soul_sandstone_cut: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_button_from_stalagnate_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_button_from_reeds_block: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_fence_from_willow_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_nether_sakura_from_nether_sakura_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_button_from_nether_sakura_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/crafting_table_wart_from_wart_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_stalagnate_from_stalagnate_planks_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_planks_from_nether_sakura_log: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_gate_from_reeds_block: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/cincinnasite_stairs_from_cincinnasite_forged: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_planks_from_wart_log: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_mushroom_from_mushroom_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_wart_stairs_from_roof_tile_wart: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_nether_sakura_from_nether_sakura_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/blue_obsidian_bricks_slab_from_blue_obsidian_bricks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_slab_from_stalagnate_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_cincinnasite_from_cincinnasite_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_planks_from_mushroom_stem: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_slab_from_willow_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/reeds_plate_from_reeds_block: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fir_door_from_mushroom_fir_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/basalt_bricks_stairs_from_basalt_bricks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_ladder_from_wart_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_reed_from_reeds_block: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/blue_obsidian_bricks_stairs_from_blue_obsidian_bricks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_nether_sakura_from_nether_sakura_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_planks_from_striped_log_willow: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_cincinnasite_from_cincinnasite_forged: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_planks_from_striped_bark_wart: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bone_stalactite_from_bone_block: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_cincinnasite_from_cincinnasite_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_button_from_anchor_tree_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_stairs_from_mushroom_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_willow_from_willow_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_bark_from_wart_log: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/taburet_nether_sakura_from_nether_sakura_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_mushroom_fir_from_mushroom_fir_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_ladder_from_stalagnate_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chest_wart_from_wart_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_fence_from_stalagnate_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/sign_stalagnate_from_stalagnate_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_planks_from_striped_log_wart: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/anchor_tree_bark_from_anchor_tree_log: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_planks_from_willow_log: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/chair_rubeus_from_rubeus_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/bar_stool_wart_from_wart_slab: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_trapdoor_from_rubeus_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/obsidian_tile_stairs_from_obsidian_tile_small: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/rubeus_plate_from_rubeus_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/basalt_bricks_wall_from_basalt_bricks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/mushroom_fence_from_mushroom_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_cut_from_soul_sandstone: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_reed_from_reeds_block: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/barrel_mushroom_fir_from_mushroom_fir_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_from_stalagnate_bark: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_smooth_stairs_from_soul_sandstone_smooth: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_bark_from_nether_sakura_log: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/nether_sakura_gate_from_nether_sakura_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/willow_button_from_willow_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/stalagnate_planks_from_stalagnate_stem: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_willow_slab_from_roof_tile_willow: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/roof_tile_reeds_stairs_from_roof_tile_reeds: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/wart_plate_from_wart_planks: {1}
+[19:27:01] [Worker-Main-13/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/betternether/soul_sandstone_wall_from_soul_sandstone_cut: {1}
+[19:27:01] [Worker-Main-13/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2,297 recipes
+[19:27:02] [Worker-Main-13/INFO] [com.stal111.forbidden_arcanus.gui.forbiddenmicon.ForbiddenmiconPageLoadListener/]: Loaded 18 recipes
+[19:27:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[19:27:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19:27:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19:27:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19:27:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[19:27:07] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[19:27:07] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1110 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
+[19:27:12] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[19:27:12] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[19:27:12] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[19:27:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19:27:36] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[19:27:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19:27:48] [Worker-Main-15/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19:27:48] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[19:27:48] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[19:27:53] [Worker-Main-23/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[19:27:53] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[19:27:53] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
+[19:27:54] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
+[19:27:54] [Worker-Main-17/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[19:27:55] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 11%
+[19:27:55] [Worker-Main-15/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[19:27:56] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 18%
+[19:27:56] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 23%
+[19:27:57] [Worker-Main-23/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[19:27:57] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[19:27:58] [Worker-Main-17/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 35%
+[19:27:58] [Worker-Main-22/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 36%
+[19:27:58] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[19:27:59] [Worker-Main-22/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 44%
+[19:27:59] [Worker-Main-17/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 48%
+[19:28:00] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 57%
+[19:28:01] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 61%
+[19:28:01] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 65%
+[19:28:02] [Worker-Main-17/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 69%
+[19:28:02] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[19:28:03] [Worker-Main-22/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 78%
+[19:28:03] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[19:28:04] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[19:28:04] [Worker-Main-23/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[19:28:04] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[19:28:04] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 28,215 ms
+[19:28:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (43.900s)! For help, type "help"
+[19:28:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
+[19:28:04] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread RCON Listener started
+[19:28:04] [Server thread/INFO] [net.minecraft.network.rcon.MainThread/]: RCON running on 0.0.0.0:25575
+[19:28:06] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@e3fb9c7]
+[19:28:06] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[19:28:11] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[19:28:11] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
+[19:28:11] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[19:28:11] [Server thread/INFO] [Minecraft/]: Timings Reset
+[19:32:39] [RCON Listener #1/INFO] [net.minecraft.network.rcon.RConThread/]: Thread RCON Client /127.0.0.1 started
+[19:32:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Rcon: Stopping the server]
+[19:32:39] [RCON Client /127.0.0.1 #2/INFO] [net.minecraft.network.rcon.ClientThread/]: Thread RCON Client /127.0.0.1 shutting down
+[19:32:39] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.forge.ForgePlatform from WorldEdit
+[19:32:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19:32:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19:32:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19:32:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:32:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:32:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[19:32:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:32:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[19:32:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:32:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[market_place_dimension]'/feywild:market_place_dimension
+[19:32:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (market_place_dimension): All chunks are saved
+[19:32:40] [Server thread/ERROR] [net.minecraft.world.storage.ServerWorldInfo/]: WorldGenSettings: Value -1 outside of range [0:4096]
+[19:32:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:32:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:32:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:32:40] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (market_place_dimension): All chunks are saved
+[19:32:40] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread RCON Listener stopped

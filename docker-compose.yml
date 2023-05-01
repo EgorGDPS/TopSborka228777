@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  mc:
+    image: itzg/minecraft-server:java8-multiarch	
+    ports:
+      - 25665:25665
+    environment:
+      EULA: "TRUE"
+      TYPE: "FORGE"
+      VERSION: 1.16.5 
+      MEMORY: "4G"
+      OPS: Egor_BRO100
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      # attach a directory relative to the directory containing this compose file
+      - ./minecraft-data:/data
+    
